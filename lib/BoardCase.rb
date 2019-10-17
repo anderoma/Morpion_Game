@@ -26,6 +26,7 @@ class BoardCase
   def filling(nb, symbol)
     if
       puts "VICTOIRE!!"
+    end
     if array[nb] == " "
       array[nb] = symbol
       return 1
